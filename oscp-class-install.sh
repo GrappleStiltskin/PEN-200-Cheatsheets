@@ -1,11 +1,14 @@
 #!/bin/bash
 
 # Update and upgrade
-apt-get update --fix-missing
-apt-get upgrade --fix-missing
+apt-get update --fix-missing;
+apt-get upgrade --fix-missing;
 
 # Install enum4linux-ng
 apt-get install enum4linux-ng;
+
+# Install winpeas
+wget https://github.com/peass-ng/PEASS-ng/releases/download/20240616-43d0a061/winPEASx64.exe;
 
 # Install Autorecon
 apt install python3;
