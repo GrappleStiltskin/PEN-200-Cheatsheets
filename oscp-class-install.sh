@@ -16,9 +16,9 @@ apt install python3-pip -y;
 apt install python3-venv -y;
 apt install seclists -y;
 apt install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf -y;
-python3 -m pip install --user pipx -y;
-python3 -m pipx ensurepath -y;
+apt install autorecon -y;
+python3 -m pip install --user pipx;
+python3 -m pipx ensurepath;
 
 # Close and re-open terminal, then run:
 # pipx install git+https://github.com/Tib3rius/AutoRecon.git;
-# apt install autorecon
