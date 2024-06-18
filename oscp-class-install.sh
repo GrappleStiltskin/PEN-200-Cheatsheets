@@ -7,6 +7,9 @@ apt-get upgrade --fix-missing -y;
 # Install enum4linux-ng
 apt-get install enum4linux-ng -y;
 
+# Install rlwrap
+apt install rlwrap;
+
 # Install winpeas
 wget https://github.com/peass-ng/PEASS-ng/releases/download/20240616-43d0a061/winPEASx64.exe;
 
